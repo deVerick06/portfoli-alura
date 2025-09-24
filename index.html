@@ -3,21 +3,40 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="/styles/style.css">
     <title>Portfolio</title>
 </head>
 <body>
+    <header class="cabecalho">
+        <nav class="cabecalho-menu">
+            <a class="cabecalho-menu-link" href="index.html">Home</a>
+            <a class="cabecalho-menu-link" href="about.html">Sobre mim</a>
+        </nav>
+    </header>
     <main class="presentation">
         <section class="presentation-content">
             <h1 class="presentation-content-title">Eleve seu negócio digital a outro nível <strong class="title-highlight">com um Front-end de qualidade!</strong></h1>
             <p class="presentation-content-paragraph">Olá! Sou Erick Pereira, desenvolvedor Front-end com especialidade em React, HTML e CSS. Ajudo pequenos negócios e designers a colocarem em prática boas ideias. Vamos conversar?</p>
             <div class="presentation-content-links">
-                <h2>Acesse minhas redes:</h2>
-                <a class="presentation-content-links-link" href="https://www.instagram.com/ericknxs_/" target="_blank">Instagram</a>
-                <a class="presentation-content-links-link" href="https://github.com/deVerick06" target="_blank">GitHub</a>
+                <h2 class="presentation-content-links-subtitle">Acesse minhas redes:</h2>
+                <a class="presentation-content-links-link" href="https://github.com/deVerick06" target="_blank">
+                    <img src="assests/github.png" alt="Github">
+                    GitHub
+                </a>
+                <a class="presentation-content-links-link" href="https://www.linkedin.com/in/erick-pereira-716006249/" target="_blank">
+                    <img src="assests/linkedin.png" alt="LinkedIn">
+                    LinkedIn
+                </a>
+                <a class="presentation-content-links-link" href="https://www.instagram.com/ericknxs_/" target="_blank">
+                    <img src="assests/instagram.png" alt="Instagram">
+                    Instagram
+                </a>
             </div>
         </section>
-        <img src="IMG_1696.jpg" alt="Foto do Erick">
+        <img class="erick" src="/assests/IMG_1696.jpg" alt="Foto do Erick">
     </main>
+    <footer class="rodape">
+        <p>Desenvolvido por Erick</p>
+    </footer>
 </body>
 </html>
